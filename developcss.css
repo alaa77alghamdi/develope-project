@@ -1,18 +1,30 @@
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar {
+  display: flex;
+  gap: 20px;
+  padding-right: 30px;
+  justify-content: space-evenly;
+}
+.nav-bar li {
+  font-family: Quicksand;
+  text-decoration: none;
+  color: #0c1753;
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+#part1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+#part1 img{
+    max-width: 30%;
     
-    }
-    .nav-bar{
-    display: flex;
-    gap: 20px;
-    padding-right: 30px;
-    justify-content: space-evenly;
-    
-    }
-    .nav-bar li{
-    font-family: Monaco;
-    text-decoration:none;
-    color: blue;
-    }
+}
+#part1 .headerPart1 button{
+    margin-left: 5%;
+}
